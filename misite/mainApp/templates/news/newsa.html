@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Новости</title>
+  <link rel="stylesheet" href="/static/css/bootstrap.min.css" type="text/css">
+</head>
+<body>
+  <div class="jumbotron">
+    <div class="container">
+
+      <h1>{% include "mainApp/includes/some_html.html" %}</h1>
+      {% block content %}
+      {% endblock %}
+      <p>
+        <a href="/" class="btn btn-success btn-lg">Главная страница</a>
+
+        
+
+
+
+        <div class="card text-center">
+  <div class="card-header">
+
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Сайт в разработке...</h5>
+              <img src="/static/mainApp/image/stop.png" class="img-thumbnail">
+    <p class="card-text"></p>
+  </div>
+  <div class="card-footer text-muted">
+
+  </div>
+</div>
+
+
+
+        <div class="card text-center">
+  <div class="card-header">
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Powered by: Daniil Mazokin</h5>
+          <img src="/static/mainApp/image/1234.png" class="img-thumbnail">
+    <a href="https://www.youtube.com/channel/UClXtOAFiVbAhR-Xi4XDP9sg?view_as=subscriber" class="btn btn-primary">Мой канал!</a>
+  </div>
+  <div class="card-footer text-muted">
+   
+  </div>
+</div>
+      </p>
+    </div>
+  </div>
+  <div class="container">
+    
+    <hr>
+    &copy; Все права защищены 2019/danic4893@gmail.com
+  </div>
+</body>
+</html>
